@@ -1,0 +1,239 @@
+津巴布韦
+由于计划经济失败，津巴布韦称为世界上通胀率最高的国家。这里的物价即使在一天中也会持续上涨，所以必须实时更新物品价格。例如：1个鸡蛋的价格为35亿津巴布韦元，所以超市做了每位数字的活动标价牌。
+钟旭在穆加贝超市打工，有一天遇到了一位比较麻烦的客人。这位客人要退回刚才买走的鸡蛋，但是他不仅丢失了发票，而且连购买鸡蛋的数量也记不清了。鸡蛋价格已经在此期间上涨了1次，所以广告牌上已经写上新的价格。辛亏钟旭还记得如下两件事情。
+1）最近一次价格上涨的时候，钟旭只是交换了塑料板的顺序。也就是说，没有添加其他塑料板，也没有去掉过广告牌中的塑料板。
+2）看到最近一次上涨的价格时，钟旭心里曾经想过，“哇，这些钱刚好能购买m个糖果”。所以，最后的鸡蛋价格是m的倍数。（因为糖果的价格已经上涨，所以不能计算出鸡蛋的价格了）。
+输入
+第一行输入测试用例的个数C（C<=50）。之后的C行里面每行输入两个自然数e和m（1<=e<=1014，2<=m<=20）。当前鸡蛋的价格不能以0开始，但是之前的价格可以以0开始。
+输出
+每个测试用例在1行内输出可能的价格个数除以1 000 000 007的余数。
+
+示例输入值：
+4
+321 3
+123 3
+422 2
+12738173912 7
+示例输出值
+5
+0
+2
+11033
+示例输入输出值的说明
+第一个示例输入值：以前鸡蛋的价格可能是123元、132元、213元、231元、312元。
+第二个示例输入值：无论怎样重新排列123元的数字，结果都会比123元大，故无解。
+第三个示例输入值：224元和242元是可能的价格。
+第四个示例输入值：鸡蛋简直太贵了。
+
+
+
+一、C/C++实现
+#include<iostream>
+#include<string.h>
+#include<stdlib.h>
+#include <sstream>
+using namespace std;
+
+long long countNum = 0;
+bool IsSwap(char* pBegin, char* pEnd)
+{
+    char* p;
+    for (p=pBegin; p<pEnd; p++)
+    {
+        if (*p == *pEnd)
+            return false;
+    }
+    return true;
+}
+
+void Permutation(char* pStr, char* pBegin,char *pre_str,int m)
+{
+    if (*pBegin == '\0')
+    {
+        if (strcmp(pre_str, pStr) > 0)//如果pre_str>pStr则返回正数
+        {
+            stringstream ss;
+            long long ll;
+            ss<<pStr;
+            ss>>ll;
+            if(ll%m == 0)
+            {
+                countNum++;
+            }
+            //countNum++;
+            /*if (strtol(pStr, NULL, 10)%m == 0)//将pStr转换为10进制数
+            {
+                countNum++;
+            }*/
+        }
+    }
+    else
+    {
+        for (char* pCh = pBegin; *pCh!='\0'; pCh++)
+        {
+            if( IsSwap(pBegin,pCh) )
+            {
+                char temp = *pCh;
+                *pCh = *pBegin;
+                *pBegin = temp;
+
+                Permutation(pStr, pBegin+1,pre_str,m);
+
+                temp = *pCh;
+                *pCh = *pBegin;
+                *pBegin = temp;
+            }
+        }
+    }
+}
+
+int main()
+{
+    long long out[50];
+    char strE[100];
+    int time,m;
+    char pre_str[100] = {0};
+    cout<<"The time is: ";
+    cin>>time;
+    cout<<endl;
+
+    cout<<"The original strings is: "<<endl;
+    for (int i = 0; i < time; i++)
+    {
+        cin>>strE>>m;
+        strcpy(pre_str, strE);
+        Permutation(strE,strE,pre_str,m);
+        out[i] = countNum%1000000007;
+        countNum = 0;
+    }
+
+    cout<<"After permutation select, the price possible number  is: "<<endl;
+    for (int i = 0; i < time; i++)
+    {
+        cout<<out[i]<<endl;
+    }
+    return 0;
+}
+
+二、java实现
+import java.math.BigInteger;
+import java.util.Scanner;
+public class Zimbabwe {
+	private static double count = 0; 
+	
+	public static void main(String[] args) {
+		Zimbabwe zimbabwe = new Zimbabwe();
+		double value[] = new double[50];
+		char strE[] = new char[100]; 
+		int time;
+		int m;
+		
+		System.out.print("The time is: ");
+		
+		Scanner input = new Scanner(System.in);
+		time = input.nextInt();
+		System.out.println();
+		
+		
+		for(int i=0;i<time;i++){
+			char pre_str[] = new char[100];
+			String str = input.next();
+			m = input.nextInt();
+			
+			strE = str.toCharArray();
+			pre_str = zimbabwe.copyOf(strE);
+			zimbabwe.permutation(strE,0,pre_str,m);
+			value[i] = count%1000000007;
+			count = 0;
+		}
+		
+		System.out.println("The original strings is: ");
+		
+		for(int i=0;i<time;i++){
+			String str = String.valueOf(value[i]);
+			String arr[] = str.split("\\.");
+			System.out.println(arr[0]);
+		}
+	}
+
+	private char[] copyOf(char[] strE) {
+		int length = strE.length;
+		char[] str = new char[length];
+		for(int i=0;i<length;i++){
+			str[i] = strE[i];
+		}
+		return str;
+	}
+
+	private void permutation(char[] strE, int begin, char[] pre_str, int m) {
+		Zimbabwe zimbabwe = new Zimbabwe();
+		if(begin == strE.length){
+			if(zimbabwe.compare(pre_str,strE)){
+				if(zimbabwe.doubleParseInt(strE, m)){//zimbabwe.bigIntegerParseInt(strE, m)
+					count++;
+				}
+			}
+		}else{
+			for(int i=begin;i<strE.length;i++){
+				if(zimbabwe.isSwap(strE,begin,i)){
+					char temp = strE[i];
+					strE[i] = strE[begin];
+					strE[begin] = temp;
+					
+					zimbabwe.permutation(strE,begin+1,pre_str,m);
+					
+					temp = strE[i];
+					strE[i] = strE[begin];
+					strE[begin] = temp;
+				}
+			}
+		}
+	}
+
+	private boolean doubleParseInt(char[] strE,int m) {
+		String str = new String(strE);
+		double num = Double.valueOf(str);
+		if(num%m==0.0)
+			return true;
+		return false;
+	}
+	
+	private boolean bigIntegerParseInt(char[] strE,int m){
+		String str = new String(strE);
+		BigInteger bigNum = new BigInteger(str);
+		BigInteger bigM = BigInteger.valueOf(m);
+		if(bigNum.remainder(bigM) != null)
+			return true;
+		return false;
+	}
+
+	private boolean numParseInt(char[] strE,int m) {
+		double value = 0.0;
+		for(int i=0;i<strE.length;i++) {
+			value = value+strE[i]*Math.pow(10.0,strE.length-1-i);
+		}
+		if(value%m==0.0)
+			return true;
+		return false;
+	}
+
+	private boolean isSwap(char[] strE, int begin, int end) {
+		for(int i=begin;i<end;i++) {
+			if(strE[i]==strE[end]) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	private boolean compare(char[] str1, char[] str2) {
+		String string1 = new String(str1);
+		String string2 = new String(str2);
+		if(string1.compareTo(string2) > 0){
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+}
