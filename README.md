@@ -66,6 +66,14 @@
         * [今日头条](https://www.nowcoder.com/contestRoom?mutiTagIds=665)
         * [滴滴](https://www.nowcoder.com/contestRoom?mutiTagIds=652)
         * [美团](https://www.nowcoder.com/contestRoom?mutiTagIds=179)
-        
+  * [慕课](https://www.imooc.com/)
+  * [慕课中国](http://www.mooc.cn/)
+  * [中国大学慕课](https://www.icourse163.org/)
+  * [极客学院](http://www.jikexueyuan.com/)
+  * [赛码网](http://www.acmcoder.com/index)
+  * [简书](https://www.jianshu.com/)
+  * [CSDN](https://www.csdn.net/)
+  * [stackoverflow](https://stackoverflow.com/)
+  * [segmentfault](https://segmentfault.com/)
         
   
