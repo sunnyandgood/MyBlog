@@ -37,7 +37,10 @@
         * [2017春招·互联网名企最新面经合集（持续更新](https://zhuanlan.zhihu.com/p/26455288)
         * [校招日程汇总](https://www.nowcoder.com/activity/campus2018)
       * 面试
+        * [BAT经典面试题汇总](https://www.nowcoder.com/ta/nine-chapter)
         * [技术面之项目面试技巧大揭秘](https://www.nowcoder.com/live/5/1/1)
+        * [计算机网络面试经典题目合集](https://www.nowcoder.com/ta/review-network)
+        * [JAVA面试经典题目合集](https://www.nowcoder.com/ta/review-java)
       * [剑指Offer](https://www.nowcoder.com/ta/coding-interviews)
       * [华为机试](https://www.nowcoder.com/ta/huawei)
       * [`leetcode`在线编程](https://www.nowcoder.com/ta/leetcode)
@@ -49,7 +52,20 @@
       * [程序员面试金典](https://www.nowcoder.com/ta/cracking-the-coding-interview)
       * [PAT真题在线练习](https://www.nowcoder.com/pat)
       * [编程马拉松](https://www.nowcoder.com/ta/hackathon)
-      * [ACM/ICPC 训练计划 - 字符串及序列](https://www.nowcoder.com/ta/acm-training-sequence)
-      * [ACM/ICPC 训练计划 - 图论](https://www.nowcoder.com/ta/acm-training-graph)
-      * [ACM在线编程训练](https://www.nowcoder.com/ta/acm-training)
+      * ACM
+        * [ACM/ICPC 训练计划 - 字符串及序列](https://www.nowcoder.com/ta/acm-training-sequence)
+        * [ACM/ICPC 训练计划 - 图论](https://www.nowcoder.com/ta/acm-training-graph)
+        * [ACM在线编程训练](https://www.nowcoder.com/ta/acm-training)
+        * [ACM解题大全(历年真题)](https://www.nowcoder.com/ta/acm-solutions)
+      * IT公司
+        * [百度](https://www.nowcoder.com/contestRoom?mutiTagIds=139)
+        * [阿里巴巴](https://www.nowcoder.com/contestRoom?mutiTagIds=134)
+        * [腾讯](https://www.nowcoder.com/contestRoom?mutiTagIds=179_138)
+        * [华为](https://www.nowcoder.com/contestRoom?mutiTagIds=239)
+        * [小米](https://www.nowcoder.com/contestRoom?mutiTagIds=147)
+        * [今日头条](https://www.nowcoder.com/contestRoom?mutiTagIds=665)
+        * [滴滴](https://www.nowcoder.com/contestRoom?mutiTagIds=652)
+        * [美团](https://www.nowcoder.com/contestRoom?mutiTagIds=179)
+        
+        
   
