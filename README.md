@@ -16,7 +16,7 @@
   * [Java的字符串分割的三种方法](https://github.com/sunnyandgood/MyBlog/issues/3)
   * [字符串，数组，数字之间的转换](https://github.com/sunnyandgood/MyBlog/issues/5)
   * [数组全排列（无重复）](https://github.com/sunnyandgood/MyBlog/issues/6)
-  * [数组的复制 ](https://github.com/sunnyandgood/MyBlog/issues/8)
+  * [数组的复制 ](https://github.com/sunnyandgood/MyBlog/blob/master/%E5%AD%97%E7%AC%A6%E6%95%B0%E7%BB%84/%E6%95%B0%E7%BB%84%E7%9A%84%E5%A4%8D%E5%88%B6.md)
   * [比较两个数组的大小](https://github.com/sunnyandgood/MyBlog/issues/9)
 
 * [SQL](https://github.com/sunnyandgood/MyBlog/tree/master/SQL)
