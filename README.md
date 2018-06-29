@@ -12,7 +12,7 @@
   * [PyCharm的快捷键](https://github.com/sunnyandgood/MyBlog/blob/master/%E5%90%84%E7%A7%8D%E5%BF%AB%E6%8D%B7%E9%94%AE/PyCharm%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE.txt)
   * [`eclipse`删除所有注释及空白行](https://github.com/sunnyandgood/MyBlog/blob/master/%E5%90%84%E7%A7%8D%E5%BF%AB%E6%8D%B7%E9%94%AE/eclipse%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E6%B3%A8%E9%87%8A%E5%8F%8A%E7%A9%BA%E7%99%BD%E8%A1%8C%20.md)
   
-* 数组、字符串
+* [数组、字符串](https://github.com/sunnyandgood/MyBlog/tree/master/%E5%AD%97%E7%AC%A6%E6%95%B0%E7%BB%84)
   * [Java的字符串分割的三种方法](https://github.com/sunnyandgood/MyBlog/issues/3)
   * [字符串，数组，数字之间的转换](https://github.com/sunnyandgood/MyBlog/blob/master/%E5%AD%97%E7%AC%A6%E6%95%B0%E7%BB%84/%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%81%E6%95%B0%E7%BB%84%E3%80%81%E6%95%B0%E5%AD%97%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2.md)
   * [数组全排列（无重复）](https://github.com/sunnyandgood/MyBlog/blob/master/字符数组/数组全排列%EF%BC%88无重复%EF%BC%89.md)
