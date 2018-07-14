@@ -1,0 +1,1 @@
+FUNCTION yyc.GETDATE does not exist
