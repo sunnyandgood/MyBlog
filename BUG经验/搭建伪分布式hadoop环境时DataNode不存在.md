@@ -40,7 +40,7 @@
         storageType=DATA_NODE
         layoutVersion=-47
 
- * 修改为：
+  * 修改为：
  
         #Tue Jul 17 14:24:18 PDT 2018
         storageID=DS-240922725-192.168.1.101-50010-1531774119103
