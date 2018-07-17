@@ -1,0 +1,1 @@
+# 搭建伪分布式hadoop环境时DataNode不存在
