@@ -1,13 +1,28 @@
 ### 问题分析（一）
 
-* ERROR manager.SqlManager: Error executing statement: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+* 执行这条语句报错
+
+      ./sqoop import \
+      --connect jdbc:mysql://192.168.2.1:3306/yan \
+      --username root \
+      --password root \
+      --table account \
+      --fields-terminated-by '\t' \
+      --delete-target-dir \
+      --num-mappers 1 \
+      --hive-import \
+      --hive-database default \
+      --hive-table account
+      
+      ERROR manager.SqlManager: Error executing statement: com.mysql.jdbc.exceptions.jdbc4.
+         CommunicationsException: Communications link failure
 
 
 * 解决办法----关闭物理机的防火墙
 
     * 1、控制面板->系统和安全->Windows Defender 防火墙->关闭防火墙
 
-    * 2、虚拟机可以ping通主机了！
+    * 2、虚拟机可以操纵物理机的mysql数据库了！
 
 
 
