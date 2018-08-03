@@ -11,3 +11,4 @@
 
 * File->Export Settings :导出Idae配置
 * File->Import Settings :导入Idae配置
+* New->Directory :建lib包......
