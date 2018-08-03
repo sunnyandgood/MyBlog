@@ -4,7 +4,7 @@
 * alt + insert : 生成get/set构造器，toString
 * psvm :main方法
 * sout :System.out.println();
-
+* ctrl + alt + shift + s :导入外部jar包（File->Project Structure）
 
 
 ### 二、Idea操作
