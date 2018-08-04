@@ -5,7 +5,8 @@
 * psvm :main方法
 * sout :System.out.println();
 * ctrl + alt + shift + s :导入外部jar包（File->Project Structure）
-
+* alt + 回车 ：补全
+* ctrl + e :显示最近使用的目录
 
 ### 二、Idea操作
 
