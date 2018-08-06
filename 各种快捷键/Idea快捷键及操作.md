@@ -7,6 +7,7 @@
 * ctrl + alt + shift + s :导入外部jar包（File->Project Structure）
 * alt + 回车 ：补全
 * ctrl + e :显示最近使用的目录
+* ctrl + alt + l:格式化
 
 ### 二、Idea操作
 
