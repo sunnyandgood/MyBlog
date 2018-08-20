@@ -5,7 +5,7 @@
 
 * [BUG经验](./BUG经验)
   * [Windows系统下运行hadoop程序出错Could not locate executable](https://github.com/sunnyandgood/BigData/blob/master/HDFS/Windows系统下运行hadoop程序出错Could%20not%20locate%20executable.md)
-  * [function job.getdate does not exist](./BUG经验/function job.getdate does not exist.md)
+  * [function job.getdate does not exist](./BUG经验/function%20job.getdate%20does%20not%20exist.md)
   * [win10电脑如何取得管理员权限](./BUG经验/win10电脑如何取得管理员权限.md)
   * [Mysql服务不见的解决办法](./BUG经验/Mysql服务不见的解决办法.md)
   * [搭建伪分布式hadoop环境时DataNode不存在](./BUG经验/搭建伪分布式hadoop环境时DataNode不存在.md)
