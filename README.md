@@ -1,12 +1,17 @@
 [记录](https://github.com/sunnyandgood/MyBlog/issues)
 ====================================================
-* [工具、学习、练习](https://github.com/sunnyandgood/MyBlog/blob/master/%E5%B7%A5%E5%85%B7%EF%BC%8C%E5%AD%A6%E4%B9%A0%EF%BC%8C%E7%BB%83%E4%B9%A0%20.md)
+* [工具、学习、练习](./工具，学习，练习.md)
 * [津巴布韦](https://github.com/sunnyandgood/UniversityCampus/blob/master/%E6%B4%A5%E5%B7%B4%E5%B8%83%E9%9F%A6/%E6%B4%A5%E5%B7%B4%E5%B8%83%E9%9F%A6.md)
 
-* [BUG经验](https://github.com/sunnyandgood/MyBlog/tree/master/BUG经验)
+* [BUG经验](./BUG经验)
   * [Windows系统下运行hadoop程序出错Could not locate executable](https://github.com/sunnyandgood/BigData/blob/master/HDFS/Windows系统下运行hadoop程序出错Could%20not%20locate%20executable.md)
-  * [function job.getdate does not exist](https://github.com/sunnyandgood/MyBlog/blob/master/BUG经验/function%20job.getdate%20does%20not%20exist.md)
-  * [win10电脑如何取得管理员权限](https://github.com/sunnyandgood/MyBlog/blob/master/BUG经验/win10电脑如何取得管理员权限.md)
+  * [function job.getdate does not exist](./BUG经验/function job.getdate does not exist.md)
+  * [win10电脑如何取得管理员权限](./BUG经验/win10电脑如何取得管理员权限.md)
+  * [Mysql服务不见的解决办法](./BUG经验/Mysql服务不见的解决办法.md)
+  * [搭建伪分布式hadoop环境时DataNode不存在](./BUG经验/搭建伪分布式hadoop环境时DataNode不存在.md)
+  * [虚拟机操纵物理机mysql时报错](./BUG经验/虚拟机操纵物理机mysql时报错.md)
+  * [解决MySQL乱码](./BUG经验/解决MySQL乱码.md)
+  
 * JAVA
   * [JDBC数据库连接](https://github.com/sunnyandgood/MyBlog/blob/master/Dao.java)
   * [`Overload和Override`的区别](https://github.com/sunnyandgood/MyBlog/issues/13)
