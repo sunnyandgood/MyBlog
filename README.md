@@ -11,6 +11,7 @@
   * [搭建伪分布式hadoop环境时DataNode不存在](./BUG经验/搭建伪分布式hadoop环境时DataNode不存在.md)
   * [虚拟机操纵物理机mysql时报错](./BUG经验/虚拟机操纵物理机mysql时报错.md)
   * [解决MySQL乱码](./BUG经验/解决MySQL乱码.md)
+  * [解决org.apache.ibatis.binding.BindingException: Invalid bound statement (not found)错误](./BUG经验/解决org.apache.ibatis.binding.BindingException: Invalid bound statement (not found)错误.md)
   
 * JAVA
   * [JDBC数据库连接](https://github.com/sunnyandgood/MyBlog/blob/master/Dao.java)
