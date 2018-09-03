@@ -1,6 +1,6 @@
 [记录](https://github.com/sunnyandgood/MyBlog/issues)
 ====================================================
-* [工具、学习、练习](https://github.com/sunnyandgood/MyBlog/blob/master/%E5%B7%A5%E5%85%B7%EF%BC%8C%E5%AD%A6%E4%B9%A0%EF%BC%8C%E7%BB%83%E4%B9%A0%20.md)
+* [工具、学习、练习](./%E5%B7%A5%E5%85%B7%EF%BC%8C%E5%AD%A6%E4%B9%A0%EF%BC%8C%E7%BB%83%E4%B9%A0%20.md)
 * [津巴布韦](https://github.com/sunnyandgood/UniversityCampus/blob/master/%E6%B4%A5%E5%B7%B4%E5%B8%83%E9%9F%A6/%E6%B4%A5%E5%B7%B4%E5%B8%83%E9%9F%A6.md)
 
 * [BUG经验](./BUG经验)
