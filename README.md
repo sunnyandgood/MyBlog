@@ -12,6 +12,7 @@
   * [虚拟机操纵物理机mysql时报错](./BUG经验/虚拟机操纵物理机mysql时报错.md)
   * [解决MySQL乱码](./BUG经验/解决MySQL乱码.md)
   * [解决org.apache.ibatis.binding.BindingException: Invalid bound statement (not found)错误](./BUG经验/%E8%A7%A3%E5%86%B3org.apache.ibatis.binding.BindingException:%20Invalid%20bound%20statement%20(not%20found)%E9%94%99%E8%AF%AF.md)
+  * [Exception in thread "main" com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'PRIMARY'](./BUG经验/Exception%20in%20thread%20%22main%22%20com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException:%20Duplicate%20entry%20'1'%20for%20key%20'PRIMARY'.md)
   
 * JAVA
   * [JDBC数据库连接](https://github.com/sunnyandgood/MyBlog/blob/master/Dao.java)
