@@ -1,6 +1,6 @@
 [记录](https://github.com/sunnyandgood/MyBlog/issues)
 ====================================================
-* [工具、学习、练习](./工具，学习，练习.md)
+* [工具、学习、练习](.工具，学习，练习 .md)
 * [津巴布韦](https://github.com/sunnyandgood/UniversityCampus/blob/master/%E6%B4%A5%E5%B7%B4%E5%B8%83%E9%9F%A6/%E6%B4%A5%E5%B7%B4%E5%B8%83%E9%9F%A6.md)
 
 * [BUG经验](./BUG经验)
