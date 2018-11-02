@@ -44,7 +44,7 @@
 
 * [SQL](https://github.com/sunnyandgood/MyBlog/tree/master/SQL)
   * [SQL server主键和外键](https://github.com/sunnyandgood/MyBlog/blob/master/SQL/SQL%20server%E4%B8%BB%E9%94%AE%E5%92%8C%E5%A4%96%E9%94%AE%20.pdf)
-  * [SQL语句](https://github.com/sunnyandgood/MyBlog/blob/master/SQL/SQL%E8%AF%AD%E5%8F%A5)
+  * [SQL语句](https://github.com/sunnyandgood/MyBlog/blob/master/SQL/SQL%E8%AF%AD%E5%8F%A5.txt)
 
 * `Web`
   * [JSP](https://github.com/sunnyandgood/MyBlog/issues/10)
